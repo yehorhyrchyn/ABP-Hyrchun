@@ -8,11 +8,11 @@ void lab_1() {
 
 string name1, name2 , name3;
 
-string sc1, sc2, sc3;
+string sc1, sc2, sc3;//Добре
 
-unsigned short cnt1, cnt2, cnt3;//usigned short бо кількість не може бути від'ємною
+unsigned short cnt1, cnt2, cnt3;
 
-unsigned short sq1, sq2, sq3; //використовую short бо вага в граммах не потрбіне дробове
+unsigned short sq1, sq2, sq3; //
 
 /* Введення  даних */
 
