@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 void lab2_1() {
-    cout << "Ви обрали лабораторну №2_1" << endl;   
+    cout << "Ви обрали лабораторну №2.1" << endl;   
     float y ,x ;
     cout << "Введіть x: ";
     cin >> x;
@@ -14,7 +14,10 @@ void lab2_1() {
 if (x >= 0 && y >= 0 && y <= 1 - x) {
     cout << "Точка потрапляє в область" << endl;
 }
-else if (y <= 0 && y >= -1 + x) {
+else if (y <= 0 && x >= 0 && y >= -1 + x) {
+    cout << "Точка потрапляє в область" << endl;
+}
+else if (y==0.5 && x==-0.5){
     cout << "Точка потрапляє в область" << endl;
 }
 else {

@@ -1,23 +1,35 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 #include "Lab_1.cpp"
-#include "Lab_2_1.cpp"
+#include "Lab_2.1.cpp"
+#include "Lab_2.2.cpp"
+#include "Lab_3.cpp"
+#include "Lab_4.cpp"
+#include "Lab_5.cpp"
+#include "Lab_6.cpp"
 using namespace std;
-
 int main() {
-    int nomerLaboratornoi;
-    cout << "Введіть номер лабораторної роботи: ";
+    string nomerLaboratornoi;
+    cout << "Введіть номер лабораторної ";
     cin >> nomerLaboratornoi;
-    switch (nomerLaboratornoi) {
-        case 1:
-            lab_1();
-            break;
-        case 2:
-            lab2_1();
-            break;
-            if (nomerLaboratornoi >2){
-                cout << "Невірне значення або лабораторна відсутня" << endl;
-            }  
-        }
+
+    if (nomerLaboratornoi == "1")
+        lab_1();
+    else if (nomerLaboratornoi == "2.1")
+        lab2_1();
+    else if (nomerLaboratornoi == "2.2")
+        lab2_2();
+    else if (nomerLaboratornoi == "3")
+        lab_3();
+    else if (nomerLaboratornoi == "4")
+        lab_4();
+    else if (nomerLaboratornoi == "5")
+        lab_5();
+    else if (nomerLaboratornoi == "6")
+        lab_6();        
+    else
+        cout << "Невірне значення або лабораторна відсутня" << endl;
+
     return 0;
 }
