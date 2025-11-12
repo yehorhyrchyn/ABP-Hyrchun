@@ -8,6 +8,8 @@
 #include "Lab_4.cpp"
 #include "Lab_5.cpp"
 #include "Lab_6.cpp"
+#include "Lab_7.cpp"
+#include "Lab_8.cpp"
 using namespace std;
 int main() {
     string nomerLaboratornoi;
@@ -27,7 +29,11 @@ int main() {
     else if (nomerLaboratornoi == "5")
         lab_5();
     else if (nomerLaboratornoi == "6")
-        lab_6();        
+        lab_6();
+    else if (nomerLaboratornoi == "7")
+        lab_7();
+    else if (nomerLaboratornoi == "8")
+        lab_8();           
     else
         cout << "Невірне значення або лабораторна відсутня" << endl;
 
