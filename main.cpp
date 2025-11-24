@@ -10,6 +10,7 @@
 #include "Lab_6.cpp"
 #include "Lab_7.cpp"
 #include "Lab_8.cpp"
+#include "Lab_10.cpp"
 #include "Lab_9.cpp"
 using namespace std;
 int main() {
@@ -35,8 +36,8 @@ int main() {
         lab_7();
     else if (nomerLaboratornoi == "8")
         lab_8();      
-         else if (nomerLaboratornoi == "9")
-        lab_9();           
+     else if (nomerLaboratornoi == "10")
+        lab_10();           
     else
         cout << "Невірне значення або лабораторна відсутня" << endl;
 
