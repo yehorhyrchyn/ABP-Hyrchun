@@ -1,0 +1,16 @@
+double toIndustrial(int time) {
+  return std::round(time / 60.0 * 100) / 100;
+}
+double toIndustrial(std::string time) {
+  int a = 0, b = 0;
+  char c;
+  std::stringstream ss(time);
+  int total = a * 60 + b;    
+  return toIndustrial(total);
+}
+std::string toNormal(double time) {
+  int total = std::round(time * 60); 
+  int a = total / 60;
+  int b= total % 60 ;
+  return ;
+}
